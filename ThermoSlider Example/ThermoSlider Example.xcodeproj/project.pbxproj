@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35503E2D21213FF0009D12B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35503E2C21213FF0009D12B4 /* AppDelegate.swift */; };
+		35503E2F21213FF0009D12B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35503E2E21213FF0009D12B4 /* ViewController.swift */; };
+		35503E3221213FF0009D12B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35503E3021213FF0009D12B4 /* Main.storyboard */; };
+		35503E3421213FF1009D12B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35503E3321213FF1009D12B4 /* Assets.xcassets */; };
+		35503E3721213FF1009D12B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35503E3521213FF1009D12B4 /* LaunchScreen.storyboard */; };
+		35503E44212140FC009D12B4 /* ThermoSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35503E3F212140FB009D12B4 /* ThermoSlider.swift */; };
+		35503E45212140FC009D12B4 /* ThermoSliderBackDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35503E40212140FB009D12B4 /* ThermoSliderBackDrop.swift */; };
+		35503E46212140FC009D12B4 /* ThermoSliderThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35503E41212140FB009D12B4 /* ThermoSliderThumbLayer.swift */; };
+		35503E47212140FC009D12B4 /* ThermoSliderTrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35503E42212140FB009D12B4 /* ThermoSliderTrackLayer.swift */; };
+		35503E48212140FC009D12B4 /* ThermoSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35503E43212140FB009D12B4 /* ThermoSliderView.swift */; };
+		35503E4A2121500F009D12B4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35503E492121500F009D12B4 /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35503E2921213FEF009D12B4 /* ThermoSlider Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThermoSlider Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35503E2C21213FF0009D12B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35503E2E21213FF0009D12B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35503E3121213FF0009D12B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35503E3321213FF1009D12B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35503E3621213FF1009D12B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35503E3821213FF1009D12B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35503E3F212140FB009D12B4 /* ThermoSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermoSlider.swift; sourceTree = "<group>"; };
+		35503E40212140FB009D12B4 /* ThermoSliderBackDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermoSliderBackDrop.swift; sourceTree = "<group>"; };
+		35503E41212140FB009D12B4 /* ThermoSliderThumbLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermoSliderThumbLayer.swift; sourceTree = "<group>"; };
+		35503E42212140FB009D12B4 /* ThermoSliderTrackLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermoSliderTrackLayer.swift; sourceTree = "<group>"; };
+		35503E43212140FB009D12B4 /* ThermoSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermoSliderView.swift; sourceTree = "<group>"; };
+		35503E492121500F009D12B4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35503E2621213FEF009D12B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35503E2021213FEE009D12B4 = {
+			isa = PBXGroup;
+			children = (
+				35503E2B21213FEF009D12B4 /* ThermoSlider Example */,
+				35503E2A21213FEF009D12B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35503E2A21213FEF009D12B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35503E2921213FEF009D12B4 /* ThermoSlider Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35503E2B21213FEF009D12B4 /* ThermoSlider Example */ = {
+			isa = PBXGroup;
+			children = (
+				35503E2C21213FF0009D12B4 /* AppDelegate.swift */,
+				35503E2E21213FF0009D12B4 /* ViewController.swift */,
+				35503E492121500F009D12B4 /* Helper.swift */,
+				35503E3E212140FB009D12B4 /* ThermoSlider Classes */,
+				35503E3021213FF0009D12B4 /* Main.storyboard */,
+				35503E3321213FF1009D12B4 /* Assets.xcassets */,
+				35503E3521213FF1009D12B4 /* LaunchScreen.storyboard */,
+				35503E3821213FF1009D12B4 /* Info.plist */,
+			);
+			path = "ThermoSlider Example";
+			sourceTree = "<group>";
+		};
+		35503E3E212140FB009D12B4 /* ThermoSlider Classes */ = {
+			isa = PBXGroup;
+			children = (
+				35503E3F212140FB009D12B4 /* ThermoSlider.swift */,
+				35503E40212140FB009D12B4 /* ThermoSliderBackDrop.swift */,
+				35503E41212140FB009D12B4 /* ThermoSliderThumbLayer.swift */,
+				35503E42212140FB009D12B4 /* ThermoSliderTrackLayer.swift */,
+				35503E43212140FB009D12B4 /* ThermoSliderView.swift */,
+			);
+			path = "ThermoSlider Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35503E2821213FEF009D12B4 /* ThermoSlider Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35503E3B21213FF1009D12B4 /* Build configuration list for PBXNativeTarget "ThermoSlider Example" */;
+			buildPhases = (
+				35503E2521213FEF009D12B4 /* Sources */,
+				35503E2621213FEF009D12B4 /* Frameworks */,
+				35503E2721213FEF009D12B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ThermoSlider Example";
+			productName = ThermoSlider;
+			productReference = 35503E2921213FEF009D12B4 /* ThermoSlider Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35503E2121213FEE009D12B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Siddharth Paneri";
+				TargetAttributes = {
+					35503E2821213FEF009D12B4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 35503E2421213FEE009D12B4 /* Build configuration list for PBXProject "ThermoSlider Example" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35503E2021213FEE009D12B4;
+			productRefGroup = 35503E2A21213FEF009D12B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35503E2821213FEF009D12B4 /* ThermoSlider Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35503E2721213FEF009D12B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35503E3721213FF1009D12B4 /* LaunchScreen.storyboard in Resources */,
+				35503E3421213FF1009D12B4 /* Assets.xcassets in Resources */,
+				35503E3221213FF0009D12B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35503E2521213FEF009D12B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35503E46212140FC009D12B4 /* ThermoSliderThumbLayer.swift in Sources */,
+				35503E2F21213FF0009D12B4 /* ViewController.swift in Sources */,
+				35503E48212140FC009D12B4 /* ThermoSliderView.swift in Sources */,
+				35503E47212140FC009D12B4 /* ThermoSliderTrackLayer.swift in Sources */,
+				35503E2D21213FF0009D12B4 /* AppDelegate.swift in Sources */,
+				35503E45212140FC009D12B4 /* ThermoSliderBackDrop.swift in Sources */,
+				35503E44212140FC009D12B4 /* ThermoSlider.swift in Sources */,
+				35503E4A2121500F009D12B4 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35503E3021213FF0009D12B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35503E3121213FF0009D12B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35503E3521213FF1009D12B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35503E3621213FF1009D12B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35503E3921213FF1009D12B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35503E3A21213FF1009D12B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35503E3C21213FF1009D12B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/ThermoSlider Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secure.ThermoSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35503E3D21213FF1009D12B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/ThermoSlider Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secure.ThermoSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35503E2421213FEE009D12B4 /* Build configuration list for PBXProject "ThermoSlider Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35503E3921213FF1009D12B4 /* Debug */,
+				35503E3A21213FF1009D12B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35503E3B21213FF1009D12B4 /* Build configuration list for PBXNativeTarget "ThermoSlider Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35503E3C21213FF1009D12B4 /* Debug */,
+				35503E3D21213FF1009D12B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35503E2121213FEE009D12B4 /* Project object */;
+}

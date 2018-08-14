@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Text-Regular.otf">
+            <string>SFUIText-Regular</string>
+        </array>
+        <array key="SF-UI-Text-Semibold.otf">
+            <string>SFUIText-Semibold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ThermoSlider" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ewr-b6-aOp" customClass="ThermoSliderView" customModule="ThermoSlider" customModuleProvider="target">
+                                <rect key="frame" x="47.5" y="323.5" width="280" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="HpW-Ub-Q45"/>
+                                    <constraint firstAttribute="height" constant="40" id="mBB-YQ-71d"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="min 0°" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11k-DI-QFF">
+                                <rect key="frame" x="47.5" y="363.5" width="90" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="2ep-PK-UcN"/>
+                                    <constraint firstAttribute="height" constant="21" id="A0R-oB-S3x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="13"/>
+                                <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="max 0°" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hzz-0P-CO6">
+                                <rect key="frame" x="237.5" y="363.5" width="90" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Ebz-Gw-PUt"/>
+                                    <constraint firstAttribute="width" constant="90" id="lKY-oc-dRf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="13"/>
+                                <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lvb-gA-Bir">
+                                <rect key="frame" x="0.0" y="193.5" width="375" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="v8F-jT-o9U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="80"/>
+                                <color key="textColor" red="0.78823529410000004" green="0.37254901959999998" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="11k-DI-QFF" firstAttribute="top" secondItem="ewr-b6-aOp" secondAttribute="bottom" id="BEv-uh-FWi"/>
+                            <constraint firstItem="ewr-b6-aOp" firstAttribute="top" secondItem="Lvb-gA-Bir" secondAttribute="bottom" constant="30" id="INQ-5T-msr"/>
+                            <constraint firstItem="Lvb-gA-Bir" firstAttribute="centerX" secondItem="ewr-b6-aOp" secondAttribute="centerX" id="Kco-3Y-KQ6"/>
+                            <constraint firstItem="Hzz-0P-CO6" firstAttribute="top" secondItem="ewr-b6-aOp" secondAttribute="bottom" id="LB1-xo-pCC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lvb-gA-Bir" secondAttribute="trailing" id="XdW-wj-r8W"/>
+                            <constraint firstItem="Lvb-gA-Bir" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cnY-mg-WoX"/>
+                            <constraint firstItem="ewr-b6-aOp" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ix5-Yw-1wk"/>
+                            <constraint firstItem="ewr-b6-aOp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="r6H-V3-uOz"/>
+                            <constraint firstItem="11k-DI-QFF" firstAttribute="leading" secondItem="ewr-b6-aOp" secondAttribute="leading" id="sjw-Tq-lZA"/>
+                            <constraint firstItem="Hzz-0P-CO6" firstAttribute="trailing" secondItem="ewr-b6-aOp" secondAttribute="trailing" id="wRl-0o-har"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="label_Max" destination="Hzz-0P-CO6" id="ajg-AZ-4zx"/>
+                        <outlet property="label_Min" destination="11k-DI-QFF" id="3gP-f2-TXr"/>
+                        <outlet property="label_Value" destination="Lvb-gA-Bir" id="1uZ-yo-wWK"/>
+                        <outlet property="thermoSliderView" destination="ewr-b6-aOp" id="F7T-KT-LWY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
